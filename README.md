@@ -17,8 +17,6 @@ This is a simple inspect element problem.  The 5 pieces of the flag are littered
 ## Reindeer Flotilla
 
 **Solution**
-This is a basic xss problem.  The goal is to get an alert to appear on the screen.  Unfortunately, it doesn't seem to let you use a <script> tag.  We can bypass this by using another html tag to run the javascript, for example, an <img> tag.
+This is a basic xss problem.  The goal is to get an alert to appear on the screen.  Unfortunately, it doesn't seem to let you use a `<script>` tag.  We can bypass this by using another html tag to run the javascript, for example, an `<img>` tag.
   
 ```<img src="bald" onerror="alert(1)">```
-
-The way this works is that it tries to get an image located at "bald".  However, as bald doesn't exist, it instead runs the javascript within onerror.
