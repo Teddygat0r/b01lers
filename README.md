@@ -12,7 +12,7 @@ After logging in, we see a game screen.  We need to get from one end of a maze t
 ## First Day Inspection
 
 **Solution**
-This is a simple inspect element problem.  The first part of the flag is located in the html code.  The 2nd part is in the console.  The third and fourth elements are in the css and javascript source code respectively.  The fifth part is located in the Application section of inspect element.
+This is a simple inspect element problem.  The 5 pieces of the flag are littered in different sections of inspect element.  
 
 ## Reindeer Flotilla
 
